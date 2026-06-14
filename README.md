@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# 🚀 AI-Powered Task Management Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Overview
 
-## Available Scripts
+AI-Powered Task Management Portal is a full-stack web application that allows users to create, manage, update, and track tasks efficiently. The application integrates Google Gemini AI to automatically generate task descriptions, suggest priorities, and estimate completion effort.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Authentication
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* User Registration
+* User Login
+* JWT Authentication
+* Protected APIs
 
-### `npm test`
+### Task Management
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Create Tasks
+* Edit Tasks
+* Delete Tasks
+* View All Tasks
+* Due Date Management
+* Task Status Tracking (TODO, IN_PROGRESS, DONE)
 
-### `npm run build`
+### AI Automation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* AI Task Description Generator
+* AI Priority Suggestion
+* AI Estimated Effort Suggestion
+* Graceful Fallback Handling
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠 Tech Stack
 
-### `npm run eject`
+### Frontend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* React.js
+* Axios
+* React Router DOM
+* CSS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Backend
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Spring Boot
+* Spring Security
+* JWT Authentication
+* Spring Data JPA
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Database
 
-## Learn More
+* MySQL
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### AI Integration
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Google Gemini API
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📂 Project Architecture
 
-### Analyzing the Bundle Size
+Frontend (React)
+↓
+REST API Calls
+↓
+Backend (Spring Boot)
+↓
+MySQL Database
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+AI Suggestions
+↓
+Google Gemini API
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🔑 Authentication Flow
 
-### Advanced Configuration
+1. User Registers
+2. User Logs In
+3. JWT Token Generated
+4. Token Stored in Browser
+5. Protected APIs Accessed Using JWT
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🤖 AI Workflow
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. User enters task title
+2. User clicks AI Suggest
+3. Gemini API generates:
 
-### `npm run build` fails to minify
+   * Task Description
+   * Priority
+   * Estimated Effort
+4. Suggestions are automatically filled into the form
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 📸 Screenshots
+
+Add screenshots here:
+
+* Login Page
+* Register Page
+* Dashboard
+* AI Suggest Feature
+* Task Management Table
+
+---
+
+## 🚀 Future Enhancements
+
+* Task Search
+* Task Filtering
+* Pagination
+* Dark Mode
+* Docker Deployment
+* Blockchain-Based Task Verification
+
+---
+
+## 👩‍💻 Author
+
+Namrata Patil
+
+Computer Science and Business Systems Engineer
