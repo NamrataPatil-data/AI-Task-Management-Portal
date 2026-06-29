@@ -101,8 +101,8 @@ Google Gemini API
 ## 📸 Screenshots
 
 Add screenshots here:
-
-* Login Page
+[
+* Login Page(https://github.com/NamrataPatil-data/AI-Task-Management-Portal/blob/main/Screenshots/LoginPage.png)
 * Register Page
 * Dashboard
 * AI Suggest Feature
