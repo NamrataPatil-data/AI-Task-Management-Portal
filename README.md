@@ -101,7 +101,7 @@ Google Gemini API
 ## 📸 Screenshots
 * Login Page(https://github.com/NamrataPatil-data/AI-Task-Management-Portal/blob/main/Screenshots/LoginPage.png)
 * Register Page(https://github.com/NamrataPatil-data/AI-Task-Management-Portal/commit/0c94e54eb4db36cc272f6fad8d5972f34556cae7#diff-635946b888cdf372fd3db5cfaa65eb970c54a146b7b49d04c49169d0dfb827c3)
-* Dashboard
+* Dashboard(https://github.com/NamrataPatil-data/AI-Task-Management-Portal/blob/main/Screenshots/Dashboard1.png)
 * AI Suggest Feature
 * Task Management Table
 
